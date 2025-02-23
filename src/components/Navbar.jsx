@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 w-full bg-gray-800 p-4 z-50">
-      <div className="container mx-auto min-h-[60px] flex justify-between items-center">
+      <div className="container mx-auto min-h-[40px] flex justify-between items-center">
         <h1 className="text-2xl font-bold text-blue-500">Muhammad Farhan</h1>
 
         <div className="md:hidden" onClick={toggleMenu}>
