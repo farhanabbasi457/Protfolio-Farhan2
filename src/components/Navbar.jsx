@@ -29,22 +29,22 @@ const Navbar = () => {
           }`}
         >
           <li>
-            <a href="#about" className="hover:text-blue-500">
+            <a href="#about" onClick={toggleMenu} className="hover:text-blue-500">
               About
             </a>
           </li>
           <li>
-            <a href="#skills" className="hover:text-blue-500">
+            <a href="#skills"onClick={toggleMenu} className="hover:text-blue-500">
               Skills
             </a>
           </li>
           <li>
-            <a href="#projects" className="hover:text-blue-500">
+            <a href="#projects" onClick={toggleMenu} className="hover:text-blue-500">
               Projects
             </a>
           </li>
           <li>
-            <a href="#contact" className="hover:text-blue-500">
+            <a href="#contact" onClick={toggleMenu} className="hover:text-blue-500">
               Contact
             </a>
           </li>

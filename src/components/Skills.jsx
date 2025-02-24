@@ -77,7 +77,7 @@ const Skills = () => {
                                             {skilldata.map((value, skillIndex) => (
                                                 <div
                                                     key={skillIndex}
-                                                    className="px-14 py-5 mx-10 my-4 bg-gray-800 text-white rounded-lg hover:cursor-pointer hover:opacity-[70%]"
+                                                    className="px-8 py-5 mx-10 my-4 bg-gray-800 min-w-[150px]  text-center text-white rounded-lg hover:cursor-pointer hover:opacity-[70%]"
                                                 >
                                                     {value}
                                                 </div>

@@ -10,7 +10,7 @@ const Hero = () => {
       alt="Muhammad Farhan"
       className="w-48 h-48 rounded-full mx-auto mb-8 border-4 border-blue-500"
     />
-    <h1 className="text-5xl font-bold text-blue-500 mb-4">
+    <h1 className="text-4xl min-[448px]:text-5xl font-bold text-blue-500 mb-4">
       Hi, I'm Muhammad Farhan
     </h1>
     <p className="text-xl text-gray-300 mb-8">
