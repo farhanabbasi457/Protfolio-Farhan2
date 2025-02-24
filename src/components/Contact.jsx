@@ -14,6 +14,7 @@ const Contact = () => {
             email: email,
             message: message,
         },"PJhF0z8BKBX7MTfLk");
+        console.log(result);
         if (result) {
 
             Swal.fire({
@@ -23,9 +24,9 @@ const Contact = () => {
                 showConfirmButton: false,
                 timer: 1500
             });
-            setName(null);
-            setEmail(null);
-            setMessage(null);
+            setName("");
+            setEmail("");
+            setMessage("");
         }
     }
     return (
