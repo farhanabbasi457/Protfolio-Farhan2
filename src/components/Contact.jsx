@@ -10,9 +10,9 @@ const Contact = () => {
     const SendEmail = (e) => {
         e.preventDefault();
         const result = emailjs.send("service_vfn0ezo", "template_nzu20qe", {
-            name: "amman",
-            email: "amman@gmail.com",
-            message: "hello",
+            name: name,
+            email: email,
+            message: message,
         },"PJhF0z8BKBX7MTfLk");
         if (result) {
 
