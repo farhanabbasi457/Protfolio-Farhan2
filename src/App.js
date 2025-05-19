@@ -7,6 +7,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import AnimatedSection from "./components/AnimatedSection";
+import Experience from "./components/Experience";
 
 function App() {
   return (
@@ -27,6 +28,10 @@ function App() {
 
       <AnimatedSection id="projects">
       <Projects />
+      </AnimatedSection>
+
+      <AnimatedSection id="experience">
+      <Experience />
       </AnimatedSection>
 
       <AnimatedSection id="contact">
